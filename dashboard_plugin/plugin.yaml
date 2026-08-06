@@ -1,0 +1,6 @@
+name: coding-agent-monitor
+version: 0.2.0
+description: External local Claude/Codex run monitor dashboard extension
+
+# This manifest deliberately contains no runtime hooks. The dashboard plugin is
+# the only Hermes integration; the supervisor remains a separately managed service.

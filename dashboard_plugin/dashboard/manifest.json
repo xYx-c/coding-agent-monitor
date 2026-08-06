@@ -1,0 +1,14 @@
+{
+  "name": "coding-agent-monitor",
+  "label": "Coding Agents",
+  "description": "Local Claude/Codex run supervisor with isolated tmux sessions",
+  "icon": "Terminal",
+  "version": "0.2.0",
+  "tab": {
+    "path": "/coding-agents",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

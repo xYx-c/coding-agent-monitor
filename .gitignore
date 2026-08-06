@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+# Lock the standalone no-dependency package only when intentionally adopted.
+uv.lock
+# Runtime artifacts and credentials must never enter the source repository.
+runs/
+*.ansi
+*.jsonl
+api.token
+endpoint.json
+ownership.token
+launch.sh
+# Test-only launcher for the Hermes runtime venv; not shipped.
+tests/run_plugin_runtime.py
